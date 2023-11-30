@@ -1,30 +1,63 @@
-/* Starting off with Josh's Custom CSS Reset https://www.joshwcomeau.com/css/custom-css-reset/ */
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-* {
-  margin: 0;
-}
 body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-img, picture, video, canvas, svg {
-  display: block;
-  max-width: 100%;
-}
-input, button, textarea, select {
-  font: inherit;
-}
-p, h1, h2, h3, h4, h5, h6 {
-  overflow-wrap: break-word;
-}
-#root, #__next {
-  isolation: isolate;
+  background: black;
+  font-family: "Candal", sans-serif;
 }
 
-/* ——————————— YOUR CSS STARTS BELOW HERE ——————————— */
+.top{
+  font-size:45px;
+  color: white;
+}
 
-body {
-  background-color: peachpuff;
+.hi{
+  color:white;
+}
+
+.thursday{
+  display:flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  font-size: 55px;
+  text-align: center;
+}
+
+h2 {
+  color:white;
+  text-align: center;
+  font-size:25px;
+}
+
+.extra {
+  color: white;
+  font-size: 30px;
+  text-align: right;
+}
+
+.place1{
+  color:white;
+  text-align:left;
+}
+
+.place2{
+  color:white;
+  text-align: left;
+}
+
+.place3{
+  color:white;
+  text-align: left;
+}
+
+.place4{
+  color:white;
+  text-align: left;
+}
+
+.extra1, .extra2, .extra3, .extra4, .extra5{
+  text-align: right;
+  color:white;
+  font-size: 20px;
 }
