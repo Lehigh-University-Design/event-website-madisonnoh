@@ -34,6 +34,12 @@ h2 {
   color: white;
   font-size: 30px;
   text-align: right;
+	width:800px;
+}
+.extra-container {
+	margin-right: 20px;
+	display: flex;
+justify-content: flex-end;
 }
 
 .place1{
@@ -54,6 +60,12 @@ h2 {
 .place4{
   color:white;
   text-align: left;
+}
+
+.extra1, .extra2, .extra3, .extra4, .extra5{
+  text-align: right;
+  color:white;
+  font-size: 20px;
 }
 
 .extra1, .extra2, .extra3, .extra4, .extra5{
