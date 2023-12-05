@@ -1,6 +1,7 @@
 body {
   background: black;
   font-family: "Candal", sans-serif;
+	width:2000px;
 }
 
 .top{
@@ -10,6 +11,10 @@ body {
 
 .hi{
   color:white;
+	margin-right: 130px;
+	display:flex;
+	justify-content: flex-end;
+	font-size: 20px;
 }
 
 .thursday{
@@ -27,17 +32,17 @@ h1 {
 h2 {
   color:white;
   text-align: center;
-  font-size:25px;
+  font-size:30px;
 }
 
 .extra {
   color: white;
   font-size: 30px;
   text-align: right;
-	width:800px;
+	width: 900px;
 }
 .extra-container {
-	margin-right: 20px;
+	margin-right: 130px;
 	display: flex;
 justify-content: flex-end;
 }
@@ -68,8 +73,15 @@ justify-content: flex-end;
   font-size: 20px;
 }
 
-.extra1, .extra2, .extra3, .extra4, .extra5{
-  text-align: right;
-  color:white;
-  font-size: 20px;
+.container {
+	position: relative;
+	text-align: left;
+	color: white;
+}
+
+.bottom-left{
+	position: absolute;
+	bottom: 8px;
+	left: 16px;
+	width: 600px;
 }
