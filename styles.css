@@ -1,7 +1,7 @@
 body {
   background: black;
   font-family: "Candal", sans-serif;
-	width:2000px;
+	width:1500px;
 }
 
 .top{
@@ -33,55 +33,169 @@ h2 {
   color:white;
   text-align: center;
   font-size:30px;
+	padding-bottom: 30px;
 }
 
 .extra {
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   text-align: right;
-	width: 900px;
-}
-.extra-container {
-	margin-right: 130px;
-	display: flex;
-justify-content: flex-end;
+	width: 800px;
+	margin-right: 140px;
+	display: inline-block;
+	padding-bottom: 8em;
 }
 
 .place1{
   color:white;
-  text-align:left;
+  margin-left: 25px;
 }
 
 .place2{
   color:white;
-  text-align: left;
+  margin-left: 25px;
+	
 }
 
 .place3{
   color:white;
-  text-align: left;
+  margin-left: 25px;
 }
 
 .place4{
   color:white;
-  text-align: left;
+  margin-left: 25px;
 }
 
-.extra1, .extra2, .extra3, .extra4, .extra5{
-  text-align: right;
-  color:white;
-  font-size: 20px;
+.place5{
+	color: white;
+	margin-left: 25px;
 }
 
-.container {
+.container{
+	position:relative;
+	text-align: center;
+	color: white;
+}
+
+.yellow{
+	position: absolute;
+	text-align: center;
+	top: 80%;
+	left: 30%;
+	width: 700px;
+	font-size: 20px;
+}
+
+.container-1{
 	position: relative;
 	text-align: left;
 	color: white;
 }
-
-.bottom-left{
+	
+.green{
 	position: absolute;
-	bottom: 8px;
+	bottom: 35px;
 	left: 16px;
-	width: 600px;
+	width: 360px;
+}
+
+.container-2{
+	position: relative;
+	text-align: right;
+	color: white;
+}
+
+.red{
+	position: absolute;
+	bottom: 35px;
+	right: 16px;
+	width: 380px;
+}
+
+.container-3{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.blue {
+	position: absolute;
+	top: 25%;
+	left: 30%;
+	width: 700px;
+	font-size: 20px;
+}
+
+.container-4{
+	position: relative;
+	text-align: center;
+	color: white;
+	
+}
+
+.multiple{
+	position: absolute;
+	top: 67%;
+	left: 27%;
+	width: 700px;
+	font-size: 20px;
+}
+
+.ROW, .information{
+	display: flex;
+ 	justify-content: center;
+
+}
+
+.lunch{
+	text-align: right;
+}
+
+.content{
+	color: white;
+	text-align: left;
+	font-size: 16px;
+	width: 750px;
+	margin-left: 25px;
+}
+
+.content-1{
+	color:white;
+	text-align: right;
+	width: 750px;
+	margin-right: 175px;
+}
+
+.pretty{
+	padding-bottom: 5em;
+}
+
+.locations{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.button1{
+	color:white;
+	text-align: right;
+	margin-right: 150px;
+	font-size: 25px;
+}
+.dorm1{
+	white-space: pre;
+	text-align: center;
+	display: flex;
+
+	justify-content: center;
+	
+}
+
+.place1, .place2, .place3, .place4, .place5{
+	outline: 1px white solid;
+	padding: 10px;
+	width: 225px;
+	text-align: center;
+	
 }
